@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/* INDEX.PHP */
+body{
+	background-color: #2c2c27;
+}
+
+
+
+#Cari{
+	padding: 5px;
+	border-radius: 8px;
+}
+
+#cari{
+	background-color: #F2CD5C;
+	padding: 8px;
+	color: white;
+	border-width: 0;
+	border-radius: 8px;
+}
+
+.menu{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.title{
+	text-align: center;
+	color: white;
+}
+
+nav{
+	display: flex;
+	background-color: #F2CD5C;
+	padding: 20px;
+	justify-content: center;
+	color: white;
+}
+
+
+h1.title {
+	padding: 20px 0;
+}
+
+.content {
+	margin: 50px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th,
+td {
+	text-align: center;
+	padding: 20px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+	background-color: #ebcfb2;
+}
+
+th {
+	background-color: #a6b1e1;
+	color: white;
+	padding: 15px;
+}
+
+button {
+	padding: 10px 15px;
+	color: white;
+	border: 0;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.sortclas {
+	color: darkgray;
+}
+
+button.create {
+	background-color: #0c66ec;
+	padding: 15px 15px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+button.create i {
+	margin: 5px;
+}
+
+button.update {
+	background-color: #fd7e14;
+}
+
+button.delete {
+	background-color: #df2538;
+}
+
+button.tambah{
+	background-color: #f6ad3f;
+}
+
+button.sort{
+	background-color: #f6ad3f;
+}
+
+
+
+.kontak{
+	position: absolute;
+	border-radius: 5px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	background: url("bg.jpg");
+	padding: 40px;
+	box-sizing: border-box;
+	border: 1 px solid rgba(0, 0, 0, .1);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.kontak h3{
+	margin: 0 40px;
+	padding: 15px;
+	color: #0092e6;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+
+.kontak .border{
+	width: 70px;
+	height: 3px;
+	background: #00b8e6;
+	margin: 1px auto;
+}
+
+.kontak input{
+	padding:5px 0;
+	margin-bottom: 20px;
+}
+
+.kontak textarea{
+	height: 100px;
+	padding: 10px 0;
+	margin-bottom: 10px;
+}
+
+.kontak input,
+.kontak textarea{
+	width: 300px;
+	box-sizing: border-box;
+	box-shadow: none;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #999;
+	width: 100%;
+}
+
+.kontak input[type="submit"]{
+	border-bottom: none;
+	cursor: progress;
+	color: white;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	
+}
+
+/*.kontak form div{
+	position: relative;
+}*/
+
+.kontak input[type="submit"]{
+	background: orange;
+}
+
+.kontak input[type="reset"]{
+	border-bottom: none;
+	cursor: progress;
+	color: #fff;
+	margin-bottom: 0;
+	text-transform: uppercase;
+
+
+}
+
+.kontak input[type="reset"]{
+	background: #00b8e6;
+}
+
+/*.kontak .Jenis{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.Jenis {
+	display: flex;
+}
+
+.Jenis input {
+	width: auto;
+}
+
+.Jenis div {
+	display: flex;
+	flex-basis: 50%;
+}*/
+
+/*@media screen and (max-width: 1080px) {*/
+
+
+
+
+
+
+
+

@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap");
+
+html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #242421;
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: block;
+  --primary-color: #242421;
+  --secondary-color: ;
+  --tertiery-color: ;
+}
+
+body.dark {
+  --primary-color: #242421;
+  --secondary-color: ;
+  --tertiery-color: ;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(headbg.jpg);
+  background-position: center;
+  padding-left: 2%;
+  padding-right: 4%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container3 {
+  width: 80%;
+  margin-right: 20% auto;
+  width: 60%;
+  margin: 10px auto;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5%;
+  box-shadow: 0 0 10px rgba(0,  0,  0,  0.1);
+}
+.navbar {
+  height: 20%;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+  color: #f2cd5c;
+}
+
+.navbar .logo {
+  width: 230px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 0px 10px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.menu-icon {
+  width: 100px;
+  cursor: pointer;
+  margin-left: 50px;
+  color: #fff;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  color: #f2cd5c;
+}
+
+.row {
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+
+.col {
+  padding: 30px;
+}
+
+h1 {
+  color: #f2cd5c;
+  font-size: 100px;
+}
+
+p {
+  color: #fff;
+  font-size: 20px;
+}
+
+button {
+  width: 100px;
+  color: #000;
+  font-size: 20px;
+  padding: 12px;
+  background: #f2cd5c;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.buttonadm {
+  margin-left: 1080px;
+}
+
+.card {
+  width: 200px;
+  height: 250px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+}
+
+.container2 {
+  max-width: 400px;
+  margin: 40px;
+  padding: 20px;
+  border: 2px solid #f2cd5c;
+  background-color: #1b1a17;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.biodata {
+  text-align: left;
+  padding: 10px;
+  margin: 20px;
+}
+
+.biodata h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.biodata p {
+  margin: 5px 0;
+}
+
+.mail {
+  margin-left: 60%;
+  margin-bottom: 20%;
+  box-sizing: border-box;
+  width: 40%;
+  margin-right: 30px;
+  padding: 50px;
+  border: solid #ccc;
+  border-radius: 5%;
+  box-shadow: 10 20 10px rgba(0, 0, 0, 0.1);
+  border-color: #f2cd5c;
+  background-color: #f2cd5c;
+  margin-top: -280px;
+  margin-bottom: 100px;
+}
+
+.mail input {
+  margin: 10px;
+  padding: 20px 10px;
+  width: 800px;
+  border-radius: 10px;
+}
+
+.input {
+  border: 0;
+  background-color: rgb(209,  209,  209);
+}
+
+textarea {
+  margin-left: 10px;
+  width: 800px;
+  background-color: rgb(209, 209, 209);
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+}
+
+.sending-button {
+  background-color: #1b1a17;
+  border: 2;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  text-align: center;
+  padding: 2px;
+  align-items: baseline;
+}
+
+.img2 {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img2 img {
+  max-width: 500px; /* Sesuaikan lebar maksimum gambar sesuai kebutuhan Anda */
+  margin-right: 10px; /* Jarak antar gambar di sisi kanan */
+  margin-bottom: 10px; /* Jarak antar gambar ke bawah */
+}
+
+.box:nth-of-type(3) {
+  flex-grow: 3;
+}
+
+/* Gaya untuk Dark Mode */
+.dark-mode {
+  background-color: #d4d4d4; /* Warna latar belakang gelap */
+  color: #1b1a17; /* Warna teks putih */
+}
+
+/* Tambahkan gaya tambahan sesuai kebutuhan Anda */
+
+.kontak {
+  border-radius: 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 40px;
+  background-color: white;
+  box-sizing: border-box;
+  border: 1 px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.kontak h3 {
+  margin: 0 40px;
+  padding: 15px;
+  color: #0092e6;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+
+.kontak .border {
+  width: 70px;
+  height: 3px;
+  background: #00b8e6;
+  margin: 1px auto;
+}
+
+.kontak input {
+  padding: 5px 0;
+  margin-bottom: 20px;
+}
+
+.kontak textarea {
+  height: 100px;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.kontak input,
+.kontak textarea {
+  width: 300px;
+  box-sizing: border-box;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #999;
+  width: 100%;
+}
+
+.kontak input[type="submit"] {
+  border-bottom: none;
+  cursor: progress;
+  color: white;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+/*.kontak form div{
+	position: relative;
+}*/
+
+.kontak input[type="submit"] {
+  background: orange;
+}
+
+.kontak input[type="reset"] {
+  border-bottom: none;
+  cursor: progress;
+  color: #fff;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.kontak input[type="reset"] {
+  background: #00b8e6;
+}
+
+.kontak .Jenis {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Jenis {
+  display: flex;
+}
+
+.Jenis input {
+  width: auto;
+}
+
+.Jenis div {
+  display: flex;
+  flex-basis: 50%;
+}
+
+@media screen and (max-width: 1080px) {
+}

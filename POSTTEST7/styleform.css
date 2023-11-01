@@ -1,0 +1,127 @@
+.kontak{
+	position: flex;
+	border-radius: 5px;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 1000px;
+	padding: 40px;
+    background-color: black;
+	box-sizing: border-box;
+	border: 1 px solid rgba(0, 0, 0, .1);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    margin-left: 1600px;
+    margin-top: -130px; 
+}
+
+.kontak h3{
+	margin: 0 40px;
+	padding: 15px;
+	color: #F2CD5C;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+
+.kontak .border{
+	width: 70px;
+	height: 3px;
+	background: #F2CD5C;
+	margin: 1px auto;
+}
+
+.kontak input{
+	padding:5px 0;
+	margin-bottom: 20px;
+}
+
+.kontak textarea{
+	height: 100px;
+	padding: 10px 0;
+	margin-bottom: 10px;
+}
+
+.kontak input,
+.kontak textarea{
+	width: 300px;
+	box-sizing: border-box;
+	box-shadow: none;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #999;
+	width: 100%;
+}
+
+.kontak input[type="submit"]{
+	border-bottom: none;
+	cursor: progress;
+	color: white;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	
+}
+
+/*.kontak form div{
+	position: relative;
+}*/
+
+.kontak input[type="submit"]{
+	background: green;
+}
+
+.kontak input[type="reset"]{
+	border-bottom: none;
+	cursor: progress;
+	color: white ;
+	margin-bottom: 0;
+	text-transform: uppercase;
+
+
+}
+
+.kontak input[type="reset"]{
+	background: #F2CD5C;
+}
+
+.kontak .Jenis{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.Jenis {
+	display: flex;
+	color: #F2CD5C;
+}
+
+.Jenis input {
+	width: auto;
+}
+
+.Jenis div {
+	display: flex;
+	flex-basis: 50%;
+}
+
+@media screen and (max-width: 1080px){
+
+} 
+.popup {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+	background: white;
+	padding: 20px;
+	border: 2px solid #333;
+	z-index: 9999;
+}
+
+/* Gaya CSS untuk tombol "Tutup" di dalam popup */
+.popup button {
+	background: #333;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
